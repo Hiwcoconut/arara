@@ -1,0 +1,24 @@
+h1 {
+    color:#3d1ada;
+    background-color: aquamarine;
+    margin: 100px 100px 100px 100px;
+}
+h2 {
+    color:#1ada1a;
+    background-color: aquamarine;
+    margin: 200px 500px 100px 300px;
+}
+h3 {
+    color:#da2a1a;
+    background-color: aquamarine;
+    margin: 100px 500px 400px 50px;
+}
+p {
+    color:#ff5e00;
+}
+div1 {
+    font-size: 500px;
+    font-style: oblique;
+    background-color: #1ada1a;
+    border: 2px solid black;
+}

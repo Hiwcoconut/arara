@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>don lok</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="LoginForm.js"></script>
+    </head>
+
+    <body>
+        <div class="topnav">
+            <ul>
+                <a class="active"href="home.html">Home</a>
+                <a href="product.html">Product</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="Account.html">Account</a>
+            </ul>
+            </div>
+            <div class="account-page">
+                <div class="container">
+                    <div class="row">
+                    <div class="col.2">
+                    </div>
+                    <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-btn">
+                                <span onclick="login()">Login</span>
+                                <span onclick="register()">Register</span>
+                                <hr id="Indicator">
+                            </div>
+                            <form id="LoginForm">
+                                <input type="text" placeholder="Username">
+                                <input type="password" placeholder="Passsword">
+                                <button type="submit" class="btn">Login</button>
+                                <p class="loader"></p>
+                                <a herf="">Forget Password</a>
+                            </form>
+                            <form id="RegForm">
+                                <input type="text" placeholder="Username">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <div id="myProgress">
+                                    <div id="myBar">10%</div>
+                                </div>
+                                <button type=" " class="btn">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </body>
+
+    <footer>
+
+    </footer>
+</html>
