@@ -32,7 +32,7 @@ body{
     background: radial-gradient(rgb(10, 4, 77),#07aaeadb);
 }
 .home-page {
-    padding: 150px 0;
+    padding: 320px 0;
     background: radial-gradient(rgb(10, 4, 77),#07aaeadb);
 }
 .Form-container {
@@ -60,7 +60,7 @@ body{
 .form-container span {
     font-weight: bold;
     padding: 0 10px;
-    color: #555;
+    color: #b01313;
     cursor: pointer;
     width: 100px;
     display: inline-block;
@@ -75,7 +75,7 @@ body{
     max-width: 230px;
     padding: 0 20px;
     position: absolute;
-    top: 80px;
+    top: 150px;
     transition: transform 1s;
 }
 form input {
@@ -143,9 +143,10 @@ body {
     transition: background 0.5s;
 }
 #myProgress {
-    width: 100%;
+    width:110%;
     background-color: pink;
     border-radius: 30px;
+    margin: auto;
 }
 #MyProgress {
     width: 50%;
@@ -153,9 +154,9 @@ body {
     border-radius: 1px;
 }
 #myBar {
-    width:10%;
+    width:20%;
     height: 30px;
-    background-color: black;
+    background-color: rgb(255, 0, 0);
     border-radius: 30px;
     text-align: center;
     line-height: 30px;
@@ -170,16 +171,26 @@ body {
     line-height: 5px;
     color: white;
 }
+.ko {
+    padding: 100px 20px;
+}
+.avatar {
+    width:70px;
+    height:70px;
+    padding: 20px 0px;
+}
 .loader {
-    border: 16px solid #f3f3f3;
+
+    border: 10px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid red;
-    border-right: 16px solid brown;
-    border-bottom: 16px solid pink;
-    width: 90px;
-    height: 90px;
+    border-top: 10px solid red;
+    border-right: 10px solid brown;
+    border-bottom: 10px solid pink;
+    width: 40px;
+    height: 40px;
     -webkit-animation: spin 2s liner infinite;
     animation: spin 2s linear infinite;
+    margin: auto;
 }
 @-webkit-keyframes spin {
     0% {
